@@ -1,6 +1,4 @@
-<div align="center" style="display: flex; align-items: center; justify-content: center;">
-  <img src="https://www.enoca.com/wp-content/uploads/2019/02/enoca.png" style="align-items: center;" alt="Icon" width="100" height="50">
-</div>
+
   <h2 align="center">Company Project</h2>
 
   <p align="center" >
