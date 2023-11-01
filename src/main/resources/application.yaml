@@ -7,5 +7,5 @@ spring:
       host: localhost
       port: 27017
       database: library
-      username: admin
-      password: root
+      username: ${MONGO_USERNAME}
+      password: ${MONGO_PASS}
