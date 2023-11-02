@@ -3,7 +3,6 @@ package com.keremturak.repository.entity;
 
 import com.keremturak.repository.enums.ERole;
 import lombok.*;
-import lombok.experimental.SuperBuilder;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.annotation.Id;
 
@@ -11,7 +10,7 @@ import org.springframework.data.annotation.Id;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@SuperBuilder
+@Builder
 @Document
 public class Employee{
     @Id

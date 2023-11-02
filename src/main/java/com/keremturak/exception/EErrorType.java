@@ -19,7 +19,6 @@ public enum EErrorType {
     INVALID_TOKEN(4001,"Invalid token information",BAD_REQUEST),
     BAD_REQUEST_ERROR(1202,"You have entered an invalid parameter",BAD_REQUEST),
 
-
     COMPANY_NOT_BE_FOUND(2302,"The company you were looking for could not be found",BAD_REQUEST),
     EMPLOYEE_NOT_BE_FOUND(2303,"The employee you were looking for could not be found",BAD_REQUEST),
     EMPLOYEE_NAME_NOT_FOUND(2303,"The employee name you were looking for could not be found",BAD_REQUEST),

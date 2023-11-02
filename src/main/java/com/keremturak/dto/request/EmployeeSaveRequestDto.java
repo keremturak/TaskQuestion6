@@ -18,6 +18,5 @@ public class EmployeeSaveRequestDto {
     private String firstName;
     @NotEmpty(message = "lastName field cannot be empty")
     private String lastName;
-    @Builder.Default
-    private ERole role=ERole.EMPLOYEE;
+    private ERole role;
 }

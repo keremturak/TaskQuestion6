@@ -14,7 +14,6 @@ public class EmployeeSaveResponseDto {
     private String companyId;
     private String firstName;
     private String lastName;
-    @Builder.Default
-    private ERole role=ERole.EMPLOYEE;
+    private ERole role;
     private String companyName;
 }

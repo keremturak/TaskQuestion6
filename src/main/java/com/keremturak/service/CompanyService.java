@@ -11,6 +11,7 @@ import com.keremturak.mapper.IMapper;
 import com.keremturak.repository.ICompanyRepository;
 import com.keremturak.repository.entity.Company;
 import com.keremturak.repository.entity.Employee;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -18,6 +19,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+
 public class CompanyService {
     private final ICompanyRepository companyRepository;
     private final EmployeeService employeeService;
