@@ -106,10 +106,9 @@ Bu proje, bir Java Spring uygulamasıdır ve lokal bir veritabanında (MongoDB) 
 örnek bir @GetMapping kullanımı
 
 ```java
-    @PostMapping (SAVE_COMPANY)
-    public ResponseEntity<CompanySaveResponseDto> save(@RequestBody @Valid CompanySaveRequestDto dto) {
-        return ResponseEntity.ok(companyService.save(dto));
-    }
+   @GetMapping (FIND_ALL_COMPANY)
+    public ResponseEntity<List<CompanyFindAllResponseDto>> findAll() {
+        return ResponseEntity.ok(companyService.findAll());
     }
 ```
 
