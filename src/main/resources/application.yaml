@@ -6,6 +6,6 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: taskquestion6
-      username: ${MONGO_USER}
+      database: project
+      username: ${MONGO_USERNAME}
       password: ${MONGO_PASS}
