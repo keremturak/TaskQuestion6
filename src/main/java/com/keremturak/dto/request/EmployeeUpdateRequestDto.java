@@ -13,7 +13,10 @@ import org.springframework.data.annotation.Id;
 @Builder
 public class EmployeeUpdateRequestDto {
     @Id
+    @NotEmpty(message = "companyId field cannot be empty")
     private String id;
+    @NotEmpty(message = "companyId field cannot be empty")
     private String companyId;
+    @NotEmpty(message = "companyId field cannot be empty")
     private ERole role;
 }
